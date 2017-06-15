@@ -33,7 +33,7 @@ public class SplashActivity extends Activity {
             @Override
             public void run() {
                 Intent intent;
-                if (sPutil.isFirst()){
+                if (true){
                     //向新手指导页跳转
                     sPutil.setFirst(false);
                     intent=new Intent(SplashActivity.this,GuideActivity.class);
