@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_guide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="test.pylogy.com.mygroupen.activity.GuideActivity">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/guide_vp_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+    <include
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        layout="@layout/guide_item_skip"/>
+    <Button
+        android:id="@+id/guide_btn_start"
+        android:visibility="gone"
+        android:background="@drawable/btn_light_normal"
+        android:text="马上开启"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_width="100dp"
+        android:layout_height="48dp" />
+    <com.viewpagerindicator.CirclePageIndicator
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/guide_cpi_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+</RelativeLayout>
