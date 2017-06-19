@@ -12,4 +12,8 @@ public abstract class Constants {
     public interface SharedPre{
         String FIRST="isfirst";
     }
+    public interface DianPin{
+        String APPKEY="49814079";
+        String APPSECRET="90e3438a41d646848033b6b9d461ed54";
+    }
 }

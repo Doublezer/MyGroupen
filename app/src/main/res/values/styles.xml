@@ -7,5 +7,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="overlapAnchor">false</item>  <!--把该属性改为false即可使menu位置位于toolbar之下-->
+        <item name="android:overlapAnchor">false</item>
+    </style>
 </resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/menu_toolbar_comment"
+        android:title="写点评"
+        android:icon="@drawable/home_navibar_tips_icon_comment"
+        />
+    <item
+        android:id="@+id/menu_toolbar_add"
+        android:title="添加商户"
+        android:icon="@drawable/home_navibar_tips_icon_store"
+        />
+    <item
+        android:id="@+id/menu_toolbar_scan"
+        android:title="扫一扫"
+        android:icon="@drawable/home_navibar_tips_icon_scan"
+        />
+    <item
+        android:id="@+id/menu_toolbar_pay"
+        android:title="付款码"
+        android:icon="@drawable/home_add_icon_pay"
+        />
+
+</menu>
